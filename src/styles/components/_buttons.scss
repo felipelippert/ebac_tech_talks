@@ -1,0 +1,10 @@
+.button {
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+
+    &--primary {
+        color: #fff;
+        background-color: #4F2AC3;
+    }
+}
