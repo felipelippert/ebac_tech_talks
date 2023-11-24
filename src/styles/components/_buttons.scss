@@ -2,9 +2,16 @@
     padding: 12px;
     font-size: 18px;
     font-weight: bold;
+    text-decoration: none;
 
     &--primary {
         color: #fff;
         background-color: #4F2AC3;
+    }
+
+    @media (max-width: 640px) {
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 }
